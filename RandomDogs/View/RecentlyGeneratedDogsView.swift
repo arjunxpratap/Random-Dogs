@@ -30,8 +30,7 @@ struct RecentlyGeneratedDogsView: View {
             }
             .frame(height: UIScreen.main.bounds.height * 0.4)
             
-//            Spacer()
-//            
+//            Spacer()         
 
             Button(action: {
                 viewModel.clearCache()
